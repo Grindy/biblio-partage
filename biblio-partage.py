@@ -12,7 +12,6 @@ def afficher_livres():
     pass
 
 def rechercher_livre(titre):
-
         print("\nRésultats trouvés : \n")
 
         compteur = 1
