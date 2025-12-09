@@ -12,12 +12,13 @@ def afficher_livres():
     pass
 
 def rechercher_livre(titre):
-        print("\nRésultats trouvés : \n")
+    
+    print("\nRésultats trouvés : \n")
 
-        compteur = 1
-        for livre in bibliotheque:
-            if livre['titre'].lower() == titre.lower():
-                info_livre = f"{livre['titre']} par {livre['auteur']}"
-                print(f"{compteur}. {info_livre}")
-                compteur += 1
-                  
+    compteur = 1
+    for livre in bibliotheque:
+        if livre['titre'].lower() == titre.lower():
+            info_livre = f"{livre['titre']} par {livre['auteur']}"
+            print(f"{compteur}. {info_livre}")
+            compteur += 1
+                
