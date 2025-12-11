@@ -1,4 +1,8 @@
-bibliotheque = []
+bibliotheque = [
+    {"titre": "L'écume des jours", "auteur": "Boris Vian"},
+    {"titre": "Mémoires d'un Boomer", "auteur": "Marc-André Dufour"},
+    {"titre": "Candide", "auteur": "Voltaire"}
+    ]
 short = "-" * 50
 
 #ajout d'un livre en dictionnaire dans la liste bibliotheque
