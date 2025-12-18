@@ -1,6 +1,6 @@
 # 📋 Biblio-partage
 
-Un gestionnaire bibliothèque en Python.
+Un gestionnaire de bibliothèque en Python.
 
 ## 🚀 Installation
 
@@ -13,8 +13,10 @@ cd biblio-partage
 
 ```
 biblio-partage/
+├── .gitignore
+├── biblio_partage.py        # Main file
 ├── README.md
-└── biblio-partage.py   # Main file
+└── test_biblio_partage.py   # fichier de tests utilisant Pytest
 ```
 
 ## ✨ Fonctionnalités
